@@ -3,7 +3,7 @@ const std = @import("std");
 const os = std.os;
 const assert = std.debug.assert;
 
-const S = struct { };
+const S = struct {};
 
 extern fn malloc(size: usize) ?[*]u8;
 

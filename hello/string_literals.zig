@@ -9,6 +9,8 @@ comptime {
     assert(mem.eql(u8, &message, &message2));
 }
 
+const message22 = "hello";
+
 pub fn main() !void {
     const bytes = "heelo";
     print("{}\n", .{@TypeOf(bytes)});
